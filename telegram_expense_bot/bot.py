@@ -11,7 +11,7 @@ bot = TeleBot(TOKEN)
 def start(message):
 bot.reply_to(message, "Hi! I'm your expense tracker.
 "
-"Add an expense: /add 120 food
+" Add an expense: /add 120 food
 "
 "See total: /total
 "
